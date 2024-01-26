@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>printcopy.in</title>
+    <link rel="stylesheet" href="inqurey.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  CONTACT FORM -->
+    <div class="contact">
+      <form
+        class="form"
+        action="https://formspree.io/f/mzbolvwq"
+        method="post"
+        class="flex flex-col w-[50vw] max-w-4xl m-auto"
+      >
+        <h3>CONTACT US</h3>
+        <label for="name">
+          Qurey About <span class="text-red-500"></span>
+        </label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          class="bg-transparent border rounded-lg"
+          required
+        />
+        <label for="email"> Email <span class="text-red-500"></span> </label>
+        <input
+          id="email"
+          type="email"
+          name="_replyto"
+          class="bg-transparent border rounded-lg"
+          required
+        />
+        <label for="contact"> Contact </label>
+        <input
+          id="contact"
+          type="tel"
+          name="contact"
+          class="bg-transparent border rounded-lg"
+        />
+        <label for="city"> City </label>
+        <input
+          id="city"
+          type="tel"
+          name="city"
+          class="bg-transparent border rounded-lg"
+          required
+        />
+        <label for="message">
+          What Happend ? <span class="text-red-500"></span>
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          class="bg-transparent border rounded-lg"
+          rows="{4}"
+          required
+        ></textarea>
+        <button
+          type="submit"
+          class="bg-blue rounded-lg text-black font-bold my-5 w-1/2 mx-auto"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <!----------- FOOTER PAGE ----------->
+  </body>
+</html>
